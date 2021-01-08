@@ -1,0 +1,163 @@
+header .mean{
+  height: .88rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+header{
+  background: #f2f2f2;
+  height: 1.48rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+header .mean a .logo{
+  width: .5rem;
+  height: .32rem;
+}
+header .mean a .user{
+  width: .4rem;
+  height: .4rem;
+}
+header .mean{
+  padding: 0 .2rem;
+}
+header .mean input{
+  width: 5.44rem;
+  height: .7rem;
+  background: url(../imgs/search.png) no-repeat #ffffff  0.1rem center;
+  background-size: 0.5rem;
+  text-indent: 0.7rem;
+  
+}
+header nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul a{
+  font-size: .28rem;
+  color: #747474;
+  display: block;
+  
+  height: .56rem;
+  line-height: .56rem;
+  display: flex;
+  align-items: center;
+}
+#nav1 img{
+  width: .4rem;
+  height: 0.4rem;
+}
+header nav li .ative{
+  color: #ed5b00;
+  border-bottom: #ed5b00 solid  .06rem;
+}
+#div2 img{
+  width: 7.5rem;
+  height: 3.74rem;
+}
+#nav2 ul{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+#nav2 li{
+  width: 20%;
+
+}
+#nav2 img{
+  width: 100%;
+  height: 100%;
+}
+main{
+  
+  margin: 0 auto;
+  margin-top: 1.48rem;
+  max-width: 14rem;
+}
+div.news img{
+  width: 100%;
+}
+div.news{
+  display: flex;
+  border-top: #f2f2f2 solid .06rem;
+  justify-content: space-between;
+
+}
+div.news .box{
+  width: 49.5%;
+}
+#div3{
+  background: #f2f2f2;
+}
+#products{
+display: flex;
+flex-wrap: wrap;
+
+}
+#products .product{
+  width: 48%;
+  margin: .06rem;
+}
+#products .product img{
+  width: 100%;
+}
+#products .product .id{
+  color:rgba(0, 0, 0, 0.87);
+  font-size: .28rem;
+}
+#products .product .intr{
+  color:rgba(0, 0, 0, 0.54);
+  font-size: .24rem;
+}
+#products .product .old{
+  font-size: .28rem;
+  color: #ea625b;
+}
+#products .product .new{
+  font-size: .24rem;
+  color:rgba(0, 0, 0, 0.54);
+  text-decoration: line-through;
+}
+#products .product button{
+  background-color: #ea625b;
+  color: #ffffff;
+  font-size: .24rem;
+  width: 2.08rem;
+  height: .6rem;
+  border-radius: .05rem;
+}
+#products .product .intr-box{
+  text-align: center;
+}
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+footer ul li img{
+  width: .42rem;
+  height: .42rem;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+}
+footer ul li #p1{
+  color: #ff6700;
+  
+
+}
+footer ul li p{
+  color: #999999;
+  font-size: .22rem;
+}
+
+
+
